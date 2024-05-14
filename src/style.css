@@ -1,0 +1,421 @@
+
+.heading-xxs{
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: .4px;
+}
+.menulogo span{
+    margin-right: 1rem;   
+}
+.shoplogo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 4rem;
+}
+main{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(31, 30, 30);
+    padding: 1rem;
+    color: white;
+    font-weight:500;
+   }
+   marquee {
+    width: 26rem;
+   }
+   section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    background-color: rgb(222, 221, 221);
+   }
+   .women{
+    background-image: url(../public/img/faishion1.jpg);
+    background-size: cover;
+    width:26rem;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 1.5rem;
+   }
+   .men{
+    background-image: url(../public/img/faishion2.jpg);
+    background-size: cover;
+    width:26rem;
+    height: 26rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+
+   }
+   .kids{
+    background-image: url(../public/img/faishon3.jpg);
+    background-size: cover;
+    width:26rem;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+   }
+   .button{
+    width:13rem;
+    background-color: white;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+   }
+   .brand-tittle{
+    font-size: 3rem;
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 2px 2px rgb(75, 73, 73);
+   }
+   .section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    border-bottom: 1px solid gray;
+   }
+   .sec-logo{
+    color:red;
+    font-size: 1.5rem;
+    
+   }
+   .sec-tittle{
+    font-size: 1rem;
+    font-weight: 700;
+   }
+   .section p{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 450;
+    margin-top: 8px;
+   }
+   .section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+   }
+   .sec2{
+    width: 40rem;
+    text-align: center;
+    margin-left: -2rem;
+   }
+   .sec2-tittle{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+   }
+   .sec2-para{    
+    color:gray;
+    font-size: 1rem;
+    font-weight: bold;
+   }
+   .sec2 p{
+    color: rgb(99, 95, 95);
+    font-size: 1rem;
+    font-weight: 450;
+    margin-top: 1rem;
+   }
+   .faishion4{
+    background-image: url(../public/img/faishion4.jpg);
+    background-size: cover;
+    width: 26rem;
+    height: 26rem;
+    transform: translateX(0px);
+    transition:500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.faishion5{
+    background-image: url(../public/img/faishion5.jpg);
+    background-size: cover;
+    width: 46rem;
+    height: 26rem;
+    transform: translateX(0px);
+    transition:500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faishion7{
+    background-image: url(../public/img/faishion7.jpg);
+    background-size: cover;
+    width: 46rem;
+    height: 26rem;
+    transform:translateX(0px);
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faishion8{
+    background-image: url(../public/img/faishion8.jpg);
+    background-size: cover;
+    width: 26rem;
+    height:26rem;
+    transform:translateX(0px);
+    transition:500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1-sub,.section1-sub{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin-bottom: 2rem;
+}
+.section1-main{
+    display: flex;
+    justify-content: center;
+}
+.faishion4:hover,.faishion5:hover,.faishion7:hover,.faishion8:hover{
+    transform: translateX(-10px);
+    transition:500ms
+}
+.div{
+    overflow:hidden;
+    width: 26rem;
+    height: 26rem;
+}
+.div:hover .faishion4,.div:hover .faishion8{
+    width: 28rem;
+}
+.div1:hover .faishion5,.div1:hover .faishion7{
+    width: 48rem
+}
+
+.div1{
+    overflow:hidden;
+    width: 46rem;
+    height: 26rem;
+}
+.section1-sub a{
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   text-align: center;
+   text-shadow: 1px 1px 1px black;
+   
+}
+a:hover{
+   color:white;
+}
+.h3{
+   color:white;
+   text-shadow: 1px 1px 1px black;
+}
+.month-seller{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    height:14rem
+}
+.month-seller span{
+   margin-left: 2rem;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    gap:2.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.shop-varity{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.item-data div{
+    color:gray;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.item-data span{
+    color:gray;
+    font-weight: 500;
+}
+.more-tittle{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 7rem;
+    text-decoration: underline;
+    color: black;
+}
+.more-tittle:hover{
+    text-decoration:none;
+}
+.latest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16.5rem;
+    text-align: center;
+}
+.latest-span{
+    color:gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-1{
+    border: 1px solid gray;
+    width: 20rem;
+    height: auto;
+    padding: 1.5rem;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+}
+.box-1 img{
+    margin-bottom: 1.5rem;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+}
+.brand-name{
+    height:auto;
+    background-color: rgb(212, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+    padding-top: 2rem;
+   
+}
+.brand-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap:1rem;
+    margin-top: 3rem;
+}
+.brand-img img{
+    margin-bottom: 3rem;
+}
+footer{
+    height:auto;
+    padding: 2rem;
+    background-color: rgb(42, 40, 40);
+   
+}
+.search-box{
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: rgb(79, 76, 76);
+    padding: 1rem;
+    color:white;
+    border:none;
+    margin-right: 2rem;
+}
+.search-box .email{
+    width: 23rem;
+}
+.submit{
+    color:white;
+    border:none;
+    font-weight: 500;
+    width: 10rem;
+    padding:1rem;
+}
+.adress{
+    
+    margin-top:6rem;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: gray;
+    font-weight: 500;
+}
+.address-data{
+    color: gray;
+    font-weight: 500;
+}
+.data{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+}
+h5{
+    color:white;
+}
+@media screen  and (max-width:768px){
+
+    .section{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+       }
+       
+
+
+    .section1-sub,.section1-sub{
+        display:flex;
+        flex-wrap: wrap;
+        gap:inherit;
+        
+       
+    }
+    .section1-main{
+        display:inherit;
+    }
+    .faishion4,.faishion5,.faishion7,.faishion8{
+        width:100%;
+        margin-top: 2rem;
+    
+    }   
+    .faishion4:hover,.faishion5:hover,.faishion7:hover,.faishion8:hover{
+        transform: translateX(-10px);
+        transition:500ms
+    }
+    .div,.div1{
+        overflow:hidden;
+        width: 26rem;
+        height: 26rem;
+    }
+    .div:hover .faishion4,.div:hover .faishion8{
+        width: 28rem;
+    }
+    .div1:hover .faishion5,.div1:hover .faishion7{
+        width: 28rem;
+    }
+    
+    .search-box .email{
+        width: inherit;
+    }
+    .data{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap:1rem;
+        margin-top: 3rem;
+    }
+}
